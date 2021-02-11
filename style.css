@@ -1,3 +1,27 @@
+.card {
+  text-align: center;
+}
+
+.card-text {
+  margin-bottom: 0.4em;
+}
+
 .card-img-top{
   height: 12em;
+}
+
+.card-icon {
+  width: 2em;
+}
+.card-button-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-tech-box {
+  margin-bottom: 1.1em;
+}
+
+.made-with {
+  margin-bottom: 0;
 }
