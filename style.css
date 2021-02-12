@@ -25,3 +25,7 @@
 .made-with {
   margin-bottom: 0;
 }
+
+.projects-container {
+  justify-content: space-evenly;
+}
