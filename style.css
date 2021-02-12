@@ -28,4 +28,17 @@
 
 .projects-container {
   justify-content: space-evenly;
+  margin: auto;
+}
+
+.col-xl-2 {
+  min-width:20%;
+}
+
+#projects-heading {
+  text-align: center;
+}
+
+.skill-icon {
+  width: 5em;
 }
