@@ -1,3 +1,8 @@
+body {
+  background-color: #081f3d;
+  color: #fffff9;
+}
+
 .card {
   text-align: center;
 }
@@ -41,4 +46,16 @@
 
 .skill-icon {
   width: 5em;
+}
+
+.center {
+  text-align: center;
+}
+
+.skills-container {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  margin-bottom: 25px;
 }
