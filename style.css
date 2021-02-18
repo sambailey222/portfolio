@@ -5,6 +5,9 @@ body {
 
 .card {
   text-align: center;
+  background-color: #2081C3;
+  border-radius: 15px;
+  border: none;
 }
 
 .card-text {
@@ -13,6 +16,8 @@ body {
 
 .card-img-top{
   height: 12em;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .card-icon {
@@ -58,4 +63,39 @@ body {
 
 .section-title {
   margin-bottom: 25px;
+}
+
+.btn-primary {
+  background-color: #FF4D59;
+  border-color: #FF4D59; 
+}
+
+
+
+
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("benjamin-voros-phIFdC6lA4E-unsplash.jpg"); */
+
+  background-image: url("benjamin-voros-phIFdC6lA4E-unsplash.jpg");
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
