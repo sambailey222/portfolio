@@ -8,6 +8,8 @@ body {
   background-color: #2081C3;
   border-radius: 15px;
   border: none;
+  width: 25em;
+  margin-bottom: 7em;
 }
 
 .card-text {
@@ -15,7 +17,7 @@ body {
 }
 
 .card-img-top{
-  height: 12em;
+  height: 17em;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -112,4 +114,10 @@ body {
 
 .skills-section {
   margin-top: 50px;
+}
+
+@media screen and (min-width: 1025px) {
+  .projects-container {
+    width: 80%;
+  }
 }
