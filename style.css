@@ -4,6 +4,14 @@ body {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.navbar-brand {
+  /* font-size: 3em; */
+}
+
+.navbar {
+  margin-bottom: -56px;
+}
+
 .card {
   text-align: center;
   background-color: #2081C3;
@@ -82,7 +90,7 @@ body {
   border-color: #FF4D59; 
 }
 
-
+/* #e43956c4 */
 
 
 
@@ -105,7 +113,7 @@ body {
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
-  padding-top: 36vh;
+  padding-top: 42vh;
   /* position: absolute;
   top: 50%;
   left: 50%;
@@ -135,6 +143,10 @@ body {
 
 .contact {
   padding-top: 1em;
+}
+
+.skill {
+  margin-bottom: 4em;
 }
 
 .navbar-white {
