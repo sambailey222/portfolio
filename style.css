@@ -1,20 +1,28 @@
 body {
   background-color: #081f3d;
   color: #fffff9;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand {
-  /* font-size: 3em; */
+  font-size: 2em;
+  margin-left: 3.5em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
-  margin-bottom: -56px;
+  margin-bottom: -7.5vh;
+}
+
+.nav-link {
+  margin-right: 5em;;
 }
 
 .card {
   text-align: center;
-  background-color: #2081C3;
+  background-color: #4c5c71;
+
   border-radius: 15px;
   border: none;
   width: 25em;
@@ -27,6 +35,8 @@ body {
 }
 .card-title {
   margin-bottom: 0.7em;
+  color: #fff;
+  font-weight: 600;
 }
 
 .card-img-top{
@@ -67,6 +77,7 @@ body {
 
 #projects-heading {
   text-align: center;
+  padding-top: 6em;
 }
 
 .skill-icon {
@@ -83,11 +94,12 @@ body {
 
 .section-title {
   margin-bottom: 1.8em;
+  font-weight: 900;
 }
 
 .btn-primary {
-  background-color: #FF4D59;
-  border-color: #FF4D59; 
+  background-color: #112349;
+  border-color: #112349;
 }
 
 /* #e43956c4 */
@@ -124,18 +136,21 @@ body {
 #hero-name {
   margin-bottom: 2.6em;
   font-size: 3.1em;
+  font-family: 'Raleway', sans-serif;
 }
 
 #hero-subtitle {
   font-size: 18px
+  font-family: 'Raleway', sans-serif;
 }
 
 .skills-section {
-  margin-top: 50px;
+  padding-top: 7em;
+  padding-bottom: 6em;
 }
 
 .footer {
-  background-color: #FF4D59;
+  background-color: #081f3d;
   height: 6em;
   text-align: center;
   
@@ -157,4 +172,8 @@ body {
   .projects-container {
     width: 85%;
   }
+}
+
+#projects-section {
+  background-color: #2e6993;
 }
