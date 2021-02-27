@@ -69,6 +69,7 @@ body {
 .projects-container {
   justify-content: space-evenly;
   margin: auto;
+  margin-bottom: -6em;
 }
 
 .col-xl-2 {
@@ -77,11 +78,11 @@ body {
 
 #projects-heading {
   text-align: center;
-  padding-top: 6em;
 }
 
 .skill-icon {
   width: 5em;
+  margin-bottom: 1em;
 }
 
 .center {
@@ -140,11 +141,29 @@ body {
 }
 
 #hero-subtitle {
-  font-size: 18px
+  font-size: 18px;
   font-family: 'Raleway', sans-serif;
 }
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  width: 4em;
+  height: 4em;
+}
 
-.skills-section {
+.down {
+  margin-top: 27vh;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#skills-section {
+  
+}
+
+.section-padding {
   padding-top: 7em;
   padding-bottom: 6em;
 }
@@ -176,4 +195,13 @@ body {
 
 #projects-section {
   background-color: #2e6993;
+}
+
+#contact-section {
+  padding-top: 6em;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
