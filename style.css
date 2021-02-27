@@ -205,3 +205,10 @@ a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
 }
+
+.eye {
+  width: 2em;
+}
+.todo-with {
+  margin-top: 2.1em;
+}
