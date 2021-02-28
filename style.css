@@ -7,7 +7,7 @@ body {
 
 .navbar-brand {
   font-size: 2em;
-  margin-left: 3.5em;
+  margin-left: 8.5vw;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .card {
   text-align: center;
-  background-color: #4c5c71;
+  background-color: #112349;
 
   border-radius: 15px;
   border: none;
@@ -99,8 +99,8 @@ body {
 }
 
 .btn-primary {
-  background-color: #112349;
-  border-color: #112349;
+  background-color: #4c5c71;
+  border-color: #4c5c71;
 }
 
 /* #e43956c4 */
@@ -154,9 +154,13 @@ body {
 }
 
 .down {
-  margin-top: 27vh;
+  margin-top: 15%;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.down:hover {
+  border-color: rgb(206, 202, 202) !important;
 }
 
 #skills-section {
@@ -211,4 +215,12 @@ a, a:hover, a:focus, a:active {
 }
 .todo-with {
   margin-top: 2.1em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.boot {
+  padding-top: 1em;
 }
