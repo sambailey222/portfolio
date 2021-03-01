@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-  margin-bottom: -7.5vh;
+   margin-top:
 }
 
 .nav-link {
@@ -163,9 +163,9 @@ body {
   border-color: rgb(206, 202, 202) !important;
 }
 
-#skills-section {
+/* #skills-section {
   
-}
+} */
 
 .section-padding {
   padding-top: 7em;
