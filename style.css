@@ -154,7 +154,7 @@ body {
 }
 
 .down {
-  margin-top: 15%;
+  margin-top: 10%;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
