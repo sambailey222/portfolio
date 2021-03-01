@@ -154,7 +154,10 @@ body {
 }
 
 .down {
-  margin-top: 10%;
+  position: absolute;
+  left: 50%;
+  margin-left: -2em;
+  bottom: 10%;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
