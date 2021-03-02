@@ -11,10 +11,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-/* .navbar {
-   
-} */
-
 .nav-link {
   margin-right: 5em;;
 }
@@ -103,19 +99,12 @@ body {
   border-color: #4c5c71;
 }
 
-/* #e43956c4 */
-
-
-
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/benjamin-voros-phIFdC6lA4E-unsplash.jpg");
-
-  /* background-image: url("benjamin-voros-phIFdC6lA4E-unsplash.jpg"); */
   /* Set a specific height */
   min-height: 100vh;
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -127,10 +116,6 @@ body {
 .hero-text {
   text-align: center;
   padding-top: 42vh;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   color: white;
 }
 
@@ -165,10 +150,6 @@ body {
 .down:hover {
   border-color: rgb(206, 202, 202) !important;
 }
-
-/* #skills-section {
-  
-} */
 
 .section-padding {
   padding-top: 7em;
